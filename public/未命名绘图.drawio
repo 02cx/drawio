@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="0qg2LGmxUTUHk4ehKxi5">
-    <mxGraphModel dx="5728" dy="2243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4386" dy="1422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,10 +10,10 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-180" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" value="jt_vehicle_guarantee_info&#xa;保证车源信息表" vertex="1">
           <mxGeometry height="248" width="320" x="-590" y="1390" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-181" parent="8npV5RIV_kETvLzlp7WL-180" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-181" parent="8npV5RIV_kETvLzlp7WL-180" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
           <mxGeometry height="26" width="320" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-182" parent="8npV5RIV_kETvLzlp7WL-180" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ vehicle_public_info_id: BIGINT - 车辆公共信息表ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-182" parent="8npV5RIV_kETvLzlp7WL-180" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ vehicle_public_info_id: BIGINT - 车辆公共信息表ID" vertex="1">
           <mxGeometry height="26" width="320" y="66" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-185" parent="8npV5RIV_kETvLzlp7WL-180" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="source_remark: VARCHAR(500) - 车源备注说明" vertex="1">
@@ -37,10 +37,10 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-215" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" value="jt_finance_ledger&#xa;财务收支台账表" vertex="1">
           <mxGeometry height="482" width="420" x="1234" y="660" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-216" parent="8npV5RIV_kETvLzlp7WL-215" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-216" parent="8npV5RIV_kETvLzlp7WL-215" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
           <mxGeometry height="26" width="420" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-217" parent="8npV5RIV_kETvLzlp7WL-215" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ purchase_project_id: BIGINT - 采购项目ID（关联 jt_purchase_project.id）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-217" parent="8npV5RIV_kETvLzlp7WL-215" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ purchase_project_id: BIGINT - 采购项目ID（关联 jt_purchase_project.id）" vertex="1">
           <mxGeometry height="26" width="420" y="66" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-218" parent="8npV5RIV_kETvLzlp7WL-215" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="brand_id: BIGINT - 品牌ID" vertex="1">
@@ -91,7 +91,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-298" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" value="jt_vehicle_public_info&#xa;车辆公共信息表" vertex="1">
           <mxGeometry height="586" width="520" x="-106" y="1390" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-299" parent="8npV5RIV_kETvLzlp7WL-298" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-299" parent="8npV5RIV_kETvLzlp7WL-298" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
           <mxGeometry height="26" width="520" y="40" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-300" parent="8npV5RIV_kETvLzlp7WL-298" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="vehicle_photo_oss_ids: TEXT - 车辆照片OSSID（多个用逗号分隔）" vertex="1">
@@ -157,10 +157,10 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-326" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" value="yw_self_vehicle&#xa;自营车源信息表" vertex="1">
           <mxGeometry height="1392" width="500" x="550" y="1390" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-327" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-327" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
           <mxGeometry height="26" width="500" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-328" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ vehicle_public_info_id: BIGINT - 车辆公共信息表ID（关联 jt_vehicle_public_info.id）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-328" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ vehicle_public_info_id: BIGINT - 车辆公共信息表ID（关联 jt_vehicle_public_info.id）" vertex="1">
           <mxGeometry height="26" width="500" y="66" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-329" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="vehicle_code: VARCHAR(50) - ID编码（系统内唯一识别编码）" vertex="1">
@@ -193,7 +193,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-338" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="vehicle_attr: TINYINT - 车辆属性（0=增值新车,1=无票新车,2=增值二手车,3=无票二手车）" vertex="1">
           <mxGeometry height="26" width="500" y="326" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-339" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ purchase_project_id: BIGINT - 采购项目ID（关联 jt_purchase_project.id）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-339" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ purchase_project_id: BIGINT - 采购项目ID（关联 jt_purchase_project.id）" vertex="1">
           <mxGeometry height="26" width="500" y="352" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-340" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="purchase_status: TINYINT - 采购状态（0=待采购,1=已采购,2=采购在途,3=已入库）" vertex="1">
@@ -301,10 +301,10 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-374" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="sales_income_other: BIGINT - 销售回款-其他收入（以分为单位）" vertex="1">
           <mxGeometry height="26" width="500" y="1262" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-375" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ logistics_info_id: BIGINT - 关联物流（yw_logistics_info_id.id）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-375" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ logistics_info_id: BIGINT - 关联物流（yw_logistics_info_id.id）" vertex="1">
           <mxGeometry height="26" width="500" y="1288" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-376" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ sales_order_id: BIGINT - 关联销售订单（jt_vehicle_sales_order.id）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-376" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ sales_order_id: BIGINT - 关联销售订单（jt_vehicle_sales_order.id）" vertex="1">
           <mxGeometry height="26" width="500" y="1314" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-377" parent="8npV5RIV_kETvLzlp7WL-326" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="sales_outbound_user_id: BIGINT - 销售出库负责人ID（sys_user.id）" vertex="1">
@@ -322,13 +322,13 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-286" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;" value="yw_vehicle_storage_info&#xa;车辆入库信息表" vertex="1">
           <mxGeometry height="326" width="450" x="40" y="960" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-287" parent="8npV5RIV_kETvLzlp7WL-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-287" parent="8npV5RIV_kETvLzlp7WL-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
           <mxGeometry height="26" width="450" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-288" parent="8npV5RIV_kETvLzlp7WL-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ purchase_project_id: BIGINT - 采购项目ID（关联 jt_purchase_project）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-288" parent="8npV5RIV_kETvLzlp7WL-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ purchase_project_id: BIGINT - 采购项目ID（关联 jt_purchase_project）" vertex="1">
           <mxGeometry height="26" width="450" y="66" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-289" parent="8npV5RIV_kETvLzlp7WL-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ vehicle_id: BIGINT - 车辆ID（关联 yw_self_vehicle）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-289" parent="8npV5RIV_kETvLzlp7WL-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ vehicle_id: BIGINT - 车辆ID（关联 yw_self_vehicle）" vertex="1">
           <mxGeometry height="26" width="450" y="92" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-290" parent="8npV5RIV_kETvLzlp7WL-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="storage_time: DATETIME - 入库时间" vertex="1">
@@ -337,7 +337,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-291" parent="8npV5RIV_kETvLzlp7WL-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="production_time: DATETIME - 生产时间" vertex="1">
           <mxGeometry height="26" width="450" y="144" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-292" parent="8npV5RIV_kETvLzlp7WL-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ warehouse_id: BIGINT - 仓库ID（关联 jt_vehicle_warehouse.id）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-292" parent="8npV5RIV_kETvLzlp7WL-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ warehouse_id: BIGINT - 仓库ID（关联 jt_vehicle_warehouse.id）" vertex="1">
           <mxGeometry height="26" width="450" y="170" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-293" parent="8npV5RIV_kETvLzlp7WL-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="detail_position: VARCHAR(100) - 仓库详细位置" vertex="1">
@@ -358,7 +358,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-203" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" value="jt_purchase_project&#xa;采购项目批次表" vertex="1">
           <mxGeometry height="326" width="450" x="620" y="988" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-204" parent="8npV5RIV_kETvLzlp7WL-203" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-204" parent="8npV5RIV_kETvLzlp7WL-203" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
           <mxGeometry height="26" width="450" y="40" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-205" parent="8npV5RIV_kETvLzlp7WL-203" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="project_batch_no: VARCHAR(255) - 项目批次号（如：202411-特斯拉-01）" vertex="1">
@@ -411,7 +411,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-385" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;" value="jt_vehicle_supplier&#xa;车辆供应商管理表" vertex="1">
           <mxGeometry height="430" width="550" x="1840" y="1580" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-386" parent="8npV5RIV_kETvLzlp7WL-385" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-386" parent="8npV5RIV_kETvLzlp7WL-385" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
           <mxGeometry height="26" width="550" y="40" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-387" parent="8npV5RIV_kETvLzlp7WL-385" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="supplier_code: VARCHAR(50) - 供应商ID（系统内部唯一标识，如SUP0001）" vertex="1">
@@ -459,7 +459,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-401" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" value="jt_warehouse_info&#xa;仓库信息表" vertex="1">
           <mxGeometry height="326" width="500" x="-560" y="970" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-402" parent="8npV5RIV_kETvLzlp7WL-401" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-402" parent="8npV5RIV_kETvLzlp7WL-401" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
           <mxGeometry height="26" width="500" y="40" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-403" parent="8npV5RIV_kETvLzlp7WL-401" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="warehouse_type: VARCHAR(20) - 仓库类型（美好车、自有仓、运车管家、中都物流）" vertex="1">
@@ -498,7 +498,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-438" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" value="jt_vehicle_sales_order&#xa;车辆销售订单表" vertex="1">
           <mxGeometry height="534" width="550" x="1210" y="2180" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-439" parent="8npV5RIV_kETvLzlp7WL-438" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-439" parent="8npV5RIV_kETvLzlp7WL-438" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
           <mxGeometry height="26" width="550" y="40" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-440" parent="8npV5RIV_kETvLzlp7WL-438" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="contract_no: VARCHAR(50) - 合同编号（与客户签署的正式销售合同编号）" vertex="1">
@@ -564,7 +564,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-460" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#b85450;" value="jt_self_vehicle_coop_customer&#xa;自营车辆合作客户表" vertex="1">
           <mxGeometry height="300" width="550" x="1840" y="1169" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-461" parent="8npV5RIV_kETvLzlp7WL-460" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-461" parent="8npV5RIV_kETvLzlp7WL-460" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
           <mxGeometry height="26" width="550" y="40" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-462" parent="8npV5RIV_kETvLzlp7WL-460" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="customer_type: TINYINT - 客户类型（0=公司,1=个人）" vertex="1">
@@ -597,7 +597,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-472" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#666666;fontColor=#333333;" value="jt_haoche_user&#xa;车柿好车用户信息表" vertex="1">
           <mxGeometry height="664" width="520" x="1950" y="2100" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-473" parent="8npV5RIV_kETvLzlp7WL-472" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-473" parent="8npV5RIV_kETvLzlp7WL-472" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
           <mxGeometry height="26" width="520" y="40" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-474" parent="8npV5RIV_kETvLzlp7WL-472" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="avatar: VARCHAR(255) - 头像ossId" vertex="1">
@@ -672,7 +672,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-497" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" value="jt_haoche_orders&#xa;好车会员开通订单表" vertex="1">
           <mxGeometry height="534" width="550" x="2550" y="2100" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-498" parent="8npV5RIV_kETvLzlp7WL-497" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 订单ID（主键）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-498" parent="8npV5RIV_kETvLzlp7WL-497" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 订单ID（主键）" vertex="1">
           <mxGeometry height="26" width="550" y="40" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-499" parent="8npV5RIV_kETvLzlp7WL-497" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="order_number: VARCHAR(30) - 订单编号" vertex="1">
@@ -681,7 +681,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-500" parent="8npV5RIV_kETvLzlp7WL-497" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="good_type: INT - 商品类型（1=开通会员）" vertex="1">
           <mxGeometry height="26" width="550" y="92" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-501" parent="8npV5RIV_kETvLzlp7WL-497" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ haoche_user_id: BIGINT - 好车用户ID（关联 jt_haoche_user表）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-501" parent="8npV5RIV_kETvLzlp7WL-497" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ haoche_user_id: BIGINT - 好车用户ID（关联 jt_haoche_user表）" vertex="1">
           <mxGeometry height="26" width="550" y="118" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-502" parent="8npV5RIV_kETvLzlp7WL-497" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="total_money: BIGINT - 订单总额（单位为分）" vertex="1">
@@ -732,16 +732,16 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-517" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;" value="yw_haoche_order_record&lt;br&gt;车柿好车订单记录表" vertex="1">
           <mxGeometry height="404" width="520" x="1225" y="2804" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-518" parent="8npV5RIV_kETvLzlp7WL-517" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-518" parent="8npV5RIV_kETvLzlp7WL-517" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
           <mxGeometry height="26" width="520" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-519" parent="8npV5RIV_kETvLzlp7WL-517" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ order_id: BIGINT - 订单ID（关联 jt_haoche_orders.id）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-519" parent="8npV5RIV_kETvLzlp7WL-517" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ order_id: BIGINT - 订单ID（关联 jt_haoche_orders.id）" vertex="1">
           <mxGeometry height="26" width="520" y="66" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-520" parent="8npV5RIV_kETvLzlp7WL-517" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="order_number: VARCHAR(64) - 订单号（冗余）" vertex="1">
           <mxGeometry height="26" width="520" y="92" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-521" parent="8npV5RIV_kETvLzlp7WL-517" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ haoche_user_id: BIGINT - 好车用户ID（关联 jt_haoche_user.id）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-521" parent="8npV5RIV_kETvLzlp7WL-517" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ haoche_user_id: BIGINT - 好车用户ID（关联 jt_haoche_user.id）" vertex="1">
           <mxGeometry height="26" width="520" y="118" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-522" parent="8npV5RIV_kETvLzlp7WL-517" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="customer_name: VARCHAR(50) - 客户姓名" vertex="1">
@@ -750,7 +750,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-523" parent="8npV5RIV_kETvLzlp7WL-517" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="customer_mobile: VARCHAR(20) - 客户电话" vertex="1">
           <mxGeometry height="26" width="520" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-524" parent="8npV5RIV_kETvLzlp7WL-517" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ inviter_id: BIGINT - 邀请人ID（关联 jt_haoche_user.id）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-524" parent="8npV5RIV_kETvLzlp7WL-517" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ inviter_id: BIGINT - 邀请人ID（关联 jt_haoche_user.id）" vertex="1">
           <mxGeometry height="26" width="520" y="196" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-525" parent="8npV5RIV_kETvLzlp7WL-517" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="inviter_name: VARCHAR(50) - 邀请人姓名" vertex="1">
@@ -786,7 +786,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-536" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#ffff88;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#36393d;" value="yw_logistics_info&#xa;物流信息表" vertex="1">
           <mxGeometry height="846" width="580" x="540" y="2850" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-537" parent="8npV5RIV_kETvLzlp7WL-536" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-537" parent="8npV5RIV_kETvLzlp7WL-536" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
           <mxGeometry height="26" width="580" y="40" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-538" parent="8npV5RIV_kETvLzlp7WL-536" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="project_code: VARCHAR(50) - 项目编号（如：PROJ-SH-001）" vertex="1">
@@ -795,7 +795,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-539" parent="8npV5RIV_kETvLzlp7WL-536" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="project_desc: VARCHAR(100) - 项目描述（如：2024 Q1 华东区备货）" vertex="1">
           <mxGeometry height="26" width="580" y="92" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-540" parent="8npV5RIV_kETvLzlp7WL-536" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ vehicle_id: BIGINT - 关联车辆ID（关联 yw_self_vehicle.id）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-540" parent="8npV5RIV_kETvLzlp7WL-536" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ vehicle_id: BIGINT - 关联车辆ID（关联 yw_self_vehicle.id）" vertex="1">
           <mxGeometry height="26" width="580" y="118" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-541" parent="8npV5RIV_kETvLzlp7WL-536" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="brand_id: BIGINT - 车辆品牌ID（关联车型字典表/车辆公共信息表）" vertex="1">
@@ -920,10 +920,10 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-588" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" value="yw_car_purchase_demand&#xa;求购车源信息表" vertex="1">
           <mxGeometry height="482" width="550" x="2784" y="906" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-589" parent="8npV5RIV_kETvLzlp7WL-588" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-589" parent="8npV5RIV_kETvLzlp7WL-588" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ id: BIGINT - 主键ID" vertex="1">
           <mxGeometry height="26" width="550" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-590" parent="8npV5RIV_kETvLzlp7WL-588" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ purchaser_user_id: BIGINT - 求购用户ID（关联 jt_haoche_user.id）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-590" parent="8npV5RIV_kETvLzlp7WL-588" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ purchaser_user_id: BIGINT - 求购用户ID（关联 jt_haoche_user.id）" vertex="1">
           <mxGeometry height="26" width="550" y="66" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-591" parent="8npV5RIV_kETvLzlp7WL-588" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="purchaser_name: VARCHAR(50) - 求购用户姓名" vertex="1">
@@ -935,7 +935,7 @@
         <mxCell id="8npV5RIV_kETvLzlp7WL-593" parent="8npV5RIV_kETvLzlp7WL-588" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="contact_mobile: VARCHAR(20) - 求购联系电话（实际需联系的电话）" vertex="1">
           <mxGeometry height="26" width="550" y="144" as="geometry" />
         </mxCell>
-        <mxCell id="8npV5RIV_kETvLzlp7WL-594" parent="8npV5RIV_kETvLzlp7WL-588" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ inviter_user_id: BIGINT - 邀请人ID（关联 jt_haoche_user.id）" vertex="1">
+        <mxCell id="8npV5RIV_kETvLzlp7WL-594" parent="8npV5RIV_kETvLzlp7WL-588" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="������ inviter_user_id: BIGINT - 邀请人ID（关联 jt_haoche_user.id）" vertex="1">
           <mxGeometry height="26" width="550" y="170" as="geometry" />
         </mxCell>
         <mxCell id="8npV5RIV_kETvLzlp7WL-595" parent="8npV5RIV_kETvLzlp7WL-588" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="inviter_name: VARCHAR(50) - 邀请人姓名" vertex="1">
